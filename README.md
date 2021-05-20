@@ -1,6 +1,6 @@
 # onvif-control
 
-Easy control of presets for PZT cameras via ONVIF protocols
+Easy keyboard control of presets for PZT cameras via ONVIF protocols
 
 Pan, Zoom, and Tilt cameras can be controlled remotely if they have the standard ONVIF protocol.
 
@@ -13,11 +13,13 @@ Uses NodeJS.
 
 ## Installation
 
-### NPM
+Download latest release and extract into a folder.
 
-npm install onvif-control - install latest stable version
+Then install node dependencies:
 
-npm install mhop1/onvif-control - install latest version from GitHub
+```
+npm install
+```
 
 
 ## Configuration

@@ -40,7 +40,7 @@ camData.forEach(camRow => {
 })
 let camera = CAMS[0]
 
-console.log('\nCamers:', CAMS.length)
+console.log('\nCameras:', CAMS.length)
 CAMS.forEach(cam => {
   console.log(cam.name)
 })
