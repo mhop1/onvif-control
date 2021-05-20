@@ -1,3 +1,4 @@
+
 # onvif-control
 
 Easy keyboard control of presets for PZT cameras via ONVIF protocols
@@ -15,7 +16,7 @@ Uses NodeJS.
 
 Download latest release and extract into a folder.
 
-Then install node dependencies:
+Then install node dependencies with:
 
 ```
 npm install
@@ -83,9 +84,11 @@ Then if you accidently press CAPS LOCK whilst live, it will continue to work as 
 
 ## Using
 
+```
 node index.js
+```
 
-Cameras and keys data will be listed.
+*Cameras* and *keys* data will be listed.
 
 Cameras should be found and will respond as ready, or with error information shown.
 
